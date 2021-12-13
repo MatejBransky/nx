@@ -17,7 +17,7 @@ But they come with their own technical challenges. The more code you add into yo
 Below is an example of a GitLab pipeline setup for an Nx workspace only building and testing what is affected.
 
 ```yaml
-image: node:16-alpine
+image: node:16
 stages:
   - setup
   - test
